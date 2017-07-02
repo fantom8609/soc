@@ -1,0 +1,27 @@
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.header_top .container {
+		width: 100%;
+	}
+	.width_tablet{
+		width: 95% !important;
+	
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+.head_menu .vis_on_large {
+	display: none;
+}
+.sidebar_menu {
+	display: none;
+}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}

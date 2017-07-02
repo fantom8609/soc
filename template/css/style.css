@@ -1,0 +1,139 @@
+   
+/*BASE CSS*/
+ul li {
+  list-style: none;
+}
+
+.res_padding {
+	padding: 0px;
+}
+a,i,li {
+	display: block;
+}
+
+
+   /*************************
+*******Header CSS******
+**************************/
+.header_top .row {
+	background: linear-gradient(to right,#68e8d8 0%, #0e7367 104%, #69e9d9 100%);
+}
+.container {
+	    width: 70%;
+}
+.header_top  .col-sm-1 {
+	padding: 0px;
+}
+.head_menu ul li {
+	display: inline-block;
+    margin-left: 35px;
+}
+.head_menu ul li a {
+	display: block;
+}
+
+.head_menu, i {
+	color: #fff;
+}
+.profile_settings span {
+	color: #fff;
+}
+header .col-sm-5 {
+	    height: 50px;
+}
+.head_menu ul {
+	    height: inherit;
+    margin: 0;
+    padding: 12px 0px 12px 22px;
+}
+
+ /*************************
+*******CONTEINER CSS******
+**************************/
+
+.sidebar_menu ul li {
+height: 35px;
+}
+.sidebar_menu i {
+width: 35px;
+    color: #3fb2a4;
+    vertical-align: middle;
+}
+.sidebar_menu li:first-child {
+	height: 40px;
+    border-bottom: 1px solid #5fdccc;
+    margin-bottom: 12px;
+    
+}
+.border-right-1 {
+	border-right: 1px solid #5fdccc;
+}
+.inform_content {
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+	padding-left: 23px;
+}
+/*AVATAR*/ 
+.ava_content {
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+	    padding: 14px;
+}
+
+
+/* CAROUSEL*/
+
+.zag_photos {
+	    padding-top: 11px;
+    padding-left: 29px;
+}
+.img_small img {
+	    height: 74px;
+}
+.photos {
+	    min-width: 572px;
+}
+
+
+
+.carousel  {
+   max-width: 1080px; /* ширина всего блока */
+   
+   width:100%;
+}
+.carousel-wrapper {
+   margin: 10px 30px; /* отступы для стрелок */
+   overflow: hidden; /* скрываем содержимое, выходящее за рамки основной области */
+   position:relative;
+}
+.carousel-items {
+   width: 10000px; /* устанавливаем большую ширину для набора элементов */
+   position: relative; /* позиционируем блок относительно основной области карусели */
+}
+.carousel-block {
+   float: left; /* выстраиваем все элементы карусели в ряд */
+  
+   padding: 10px 10px 10px 0px; /* делаем оступы, чтобы элементы не сливались */
+}
+.carousel-block img{
+	display:block;
+}
+
+.carousel-button-left a, .carousel-button-right a{
+   width: 25px; 
+   height: 36px; 
+   top: 80px; 
+   cursor: pointer; 
+   text-decoration:none;
+}
+.carousel-button-left a{
+   float: left; 
+   margin-top: 46px;
+}
+.carousel-button-right a{
+   float: right;
+   margin-top: 46px;
+   
+}
+
+.shadow{
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+}
